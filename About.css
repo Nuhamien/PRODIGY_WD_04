@@ -1,0 +1,91 @@
+html,body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    overflow-y:auto;
+    
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Outfit-Light.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+.about{
+    border: 1px solid #410202;
+    border-radius:10px;
+    position:relative;
+    left:17vw;
+    width:60vw;
+    height:max-content;
+    font-family:'MyFont', sans-serif ;
+    font-size:2vw;
+   line-height: 1.5;
+   text-align:left;
+  padding:10px;
+  margin-top: 0px;
+}
+p{
+    font-family:'MyFont', sans-serif ; 
+}
+h1{
+    font-family:'MyCustomFonts', sans-serif ;
+    font-size: 6vw;
+    margin-left:12vw;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+h2{
+    font-family:'MyFont', sans-serif ;
+    margin-bottom: 0px;
+    font-size: 5vw;
+    margin-left: 5px;
+}
+
+.title{
+    border-left: 1px solid #800606; /* Red vertical line */
+    padding-left:3px;
+    margin-left: 10px;
+}
+.part{
+    margin-left: 20px;
+    font-size:medium;
+    font-size: 1.3vw;
+}
+.skill{
+    margin-top: 0px;
+    font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+    .part{
+        margin-left: 20px;
+        font-size:medium;
+        font-size: 3vw;
+    }
+    .skill{
+        margin-top: 0px;
+        font-size: 5vw;
+    }
+    .about{
+        border: 1px solid #5d0404;
+        border-radius:10px;
+        position:relative;
+        left:17vw;
+        width:60vw;
+        height:max-content;
+        font-family:'MyFont', sans-serif ;
+        font-size:4vw;
+       line-height: 1.5;
+       text-align:left;
+      padding:10px;
+    }
+    h1{
+        font-family:'MyCustomFonts', sans-serif ;
+        font-size: 9vw;
+        margin-left:12vw;
+    }
+    h2{
+      font-size: 7vw;
+    }
+}
